@@ -1,0 +1,28 @@
+div.carouselItem.carousel.slide {
+  width: 50%;
+}
+
+div.carouselItem.carousel.slide > div.carousel-inner > div > div > img {
+  width: 30vw;
+}
+.carouselItem {
+  margin-right: 25;
+  background-color: trarensparent;
+  text-align: center;
+}
+
+.carousel-icon {
+  color: black;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.carousel-icon:hover {
+  color: white;
+  background-color: #d10024;
+  transition-duration: 0.3s;
+}
+
+div.carouselItem.carousel.slide > div.carousel-indicators > button {
+  background-color: #d10024;
+}

@@ -1,0 +1,50 @@
+.itemCard {
+  border: 2px solid #e4e7ed;
+}
+
+.itemCard:hover {
+  border-color: red;
+}
+
+.motion-tooltip-appear {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.motion-tooltip-appear-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.motion-tooltip-leave {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.motion-tooltip-leave-active {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.card-icon {
+  padding: 0.5vw;
+  border-radius: 50%;
+}
+
+.card-icon:hover {
+  color: #ae0b27;
+  background-color: #e4e7ed;
+}
+
+#responsive-nav > ul > li {
+  margin: 0;
+}
+
+ul.header-links.pull-left.m-0 > li > a,
+ul.header-links.pull-right.m-0 > a {
+  font-weight: 500;
+  font-size: 12;
+  font-family: sans-serif;
+}
